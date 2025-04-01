@@ -1,3 +1,4 @@
+```js
 import { chromium, Browser, Page, BrowserContext } from 'playwright'
 
 const page3 = ''
@@ -72,3 +73,4 @@ async function scrollAndClick(currentPage = page3) {
 }
 
 ;[page3].forEach(scrollAndClick)
+```
